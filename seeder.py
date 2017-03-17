@@ -25,7 +25,7 @@ def getPageName(page_title):
     page_name.strip()
 
     for key in replace:
-        page_name.replace(key, replace[key])
+        page_name = page_name.replace(key, replace[key])
 
     return page_name
 
